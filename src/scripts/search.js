@@ -1,6 +1,6 @@
 import countriesCard from '../templates/country-cards.hbs';
 import countriesList from '../templates/country-list.hbs';
-import OnSerch from './fetch-function.js';
+import OnSerch from './fetch.js';
 import { error } from './allert.js';
 const debounce = require('lodash.debounce');
 const containerCard = document.querySelector('.formCard');
